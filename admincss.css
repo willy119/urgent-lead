@@ -1,0 +1,163 @@
+body{
+	margin: 0;
+	padding: 0;
+	
+	font-family: "Roboto", sans-serif;
+	font-size: 20px;
+}
+header{
+	position: fixed;
+	background: #008b8b ;
+	padding: 20px;
+	width: 100%;
+	height: 40px;
+}
+.larea h3{
+	color: #015f5f;
+	margin: 0;
+	font-size:28px ;
+	font-weight: 800;
+}
+.rarea .icone a{
+	color:rgb(226,226,226);
+}
+
+.icone{
+	float:right;
+	color:red;
+	padding:5px;
+	text-decoration: none;
+	float: right;
+	margin-top:-30px;
+	margin-right:200px;
+	font-size: 17px;
+	font-weight: 700;
+	color: #5d4954;
+	transition: 0.5s;
+	transition-property: background;
+	text-decoration:none;
+	
+	
+	
+}
+.list {
+	padding:5px;
+    margin-top:-30px;
+	margin-left:300px;
+	font-size:15px;
+	word-spacing:20px;
+}
+.list a{
+	text-decoration:none;
+	color:rgb(226,226,226);
+}
+
+.admin{
+	color: rgb(226, 226, 226);
+	padding:5px;
+	text-decoration: none;
+	float: right;
+	margin-top:-30px;
+	margin-right: 40px;
+	font-size: 15px;
+	font-weight: 600;
+	color: #5d4954;
+	transition: 0.5s;
+	transition-property: background;
+}
+
+.sidebar{
+	background: #008b8b;
+	margin-top: 80px;
+	padding-top: 30px;
+	position: fixed;
+	left: 0;
+	width: 250px;
+	height: 100%;
+	transition: 0.5s;
+	transition-property: left;
+	
+	font-size: 18px;
+
+
+}
+.sidebar a {
+	color: rgb(226,226,226);
+	display: block;
+	width: 100%;
+	line-height: 60px;
+	text-decoration: none;
+	padding-left: 40px;
+	box-sizing: border-box;
+	transition: 0,5s;
+	transition-property: background;
+
+} 
+li {
+	color: rgb(226, 226, 226);
+	
+	list-style: none;
+}
+
+ .sidebar a:hover{
+ 	background:  #015f5f;
+ }
+
+ .sidebar span{
+ 	padding-left : 10px;
+ }
+ label #menubar{
+ 	z-index: 1;
+ 	color:rgb(226, 226, 226);
+ 	position: fixed;
+ 	cursor: pointer;
+ 	left: 238px;
+ 	font-size: 20px;
+ 	margin: 13px 0;
+ 	transition: 0.5s;
+ 	transition-property: color;
+
+
+ } 
+ 
+ label #menubar:hover{
+ 	color: #015f5f;
+ }
+
+  #check:checked ~ .sidebar{
+  	left:-190px;
+  }
+
+  #check:checked ~ .sidebar a span{
+  	display: none;
+  }
+
+  #check:checked ~.sidebar a{
+  	font-size: 20px;
+  	margin-left: 170px;
+  	width: 80px;
+  }
+
+  #check:checked ~ .sidebar li{
+  	display: none;
+  }
+.content{
+	margin-left: 250px;
+	background: url(oumio.jpg) no-repeat;
+	background-position:center;
+	background-size:cover;
+	height: 96vh;
+	transition: 0.5s;
+}
+#check:checked ~ .content{
+	margin-left: 60px;
+}
+  
+ #check{
+ 	display: none;
+ }
+img {
+	width: 100%;
+}
+
+
